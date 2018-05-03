@@ -1,5 +1,7 @@
 def square_array(array)
-Array.new= array.each { |x|
+b = Array.new
+b= array.each { |x|
   x * x
 }
+b
 end
