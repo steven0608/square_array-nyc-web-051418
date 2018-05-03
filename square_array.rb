@@ -1,6 +1,6 @@
 def square_array(array)
 b=Array.new
-array.each {|i|
+array.collect {|i|
 b.push(i * i)
 }
 b
