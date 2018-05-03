@@ -3,4 +3,5 @@ b=Array.new
 array.each do |i|
 b.push(i * i)
 end
+b
 end
