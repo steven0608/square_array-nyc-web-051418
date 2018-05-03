@@ -1,6 +1,6 @@
 def square_array(array)
-array.each { |i|
+array.each do |i|
   i * i
-}
+end
 
 end
