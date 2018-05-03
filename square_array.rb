@@ -1,7 +1,7 @@
 def square_array(array)
 b=Array.new
-array.each do |i|
+array.each {|i|
 b.push(i * i)
-end
+}
 b
 end
